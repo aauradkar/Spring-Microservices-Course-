@@ -3,15 +3,15 @@ package com.SpringPractice.moviecatalogservice.models;
 import java.util.List;
 
 public class UserRatings {
-    private List<Rating> userRatings;
+    private List<Rating> userRatingsP;
     private String userID;
 
     public List<Rating> getUserRatings() {
-        return userRatings;
+        return userRatingsP;
     }
 
     public void setUserRatings(List<Rating> userRatings) {
-        this.userRatings = userRatings;
+        this.userRatingsP = userRatings;
     }
 
     public void setUserId(String userID) {
