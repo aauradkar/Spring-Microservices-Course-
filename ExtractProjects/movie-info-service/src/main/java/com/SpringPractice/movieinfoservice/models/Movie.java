@@ -4,11 +4,13 @@ public class Movie {
     private String movieId;
     private String movieName;
     private String desc;
+    private double popularity;
 
-    public Movie(String movieId, String movieName, String desc) {
+    public Movie(String movieId, String movieName, String desc,double popularity) {
         this.movieId = movieId;
         this.movieName = movieName;
         this.desc = desc;
+        this.popularity = popularity;
     }
 
     public String getMovieId() {
@@ -33,5 +35,13 @@ public class Movie {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    public double getPopularity() {
+        return popularity;
+    }
+
+    public void setPopularity(double popularity) {
+        this.popularity = popularity;
     }
 }
